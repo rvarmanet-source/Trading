@@ -20,5 +20,17 @@ namespace Trading
         {
             InitializeComponent();
         }
+
+        private void OpenTradingWindow_Click(object sender, RoutedEventArgs e)
+        {
+            var tradingWindow = new TradingWindow();
+            tradingWindow.Show();
+        }
+
+        private void OpenDashboard_Click(object sender, RoutedEventArgs e)
+        {
+            var dashboardWindow = new DashboardWindow();
+            dashboardWindow.Show();
+        }
     }
 }

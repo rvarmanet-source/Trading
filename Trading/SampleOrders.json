@@ -1,0 +1,60 @@
+{
+  "OpenOrders": [
+    {
+      "OrderId": "123e4567-e89b-12d3-a456-426614174001",
+      "Symbol": "MSFT",
+      "Quantity": 50,
+      "Price": 380.50,
+      "Side": "Buy",
+      "Status": "Open",
+      "Timestamp": "2024-01-15T14:30:00"
+    }
+  ],
+  "TradeHistory": [
+    {
+      "OrderId": "123e4567-e89b-12d3-a456-426614174002",
+      "Symbol": "AAPL",
+      "Quantity": 100,
+      "Price": 185.25,
+      "Side": "Buy",
+      "Status": "Filled",
+      "Timestamp": "2024-01-15T10:00:00"
+    },
+    {
+      "OrderId": "123e4567-e89b-12d3-a456-426614174003",
+      "Symbol": "AAPL",
+      "Quantity": 50,
+      "Price": 187.50,
+      "Side": "Buy",
+      "Status": "Filled",
+      "Timestamp": "2024-01-15T11:30:00"
+    },
+    {
+      "OrderId": "123e4567-e89b-12d3-a456-426614174004",
+      "Symbol": "GOOGL",
+      "Quantity": 25,
+      "Price": 142.75,
+      "Side": "Buy",
+      "Status": "Filled",
+      "Timestamp": "2024-01-15T09:15:00"
+    },
+    {
+      "OrderId": "123e4567-e89b-12d3-a456-426614174005",
+      "Symbol": "TSLA",
+      "Quantity": 75,
+      "Price": 238.45,
+      "Side": "Buy",
+      "Status": "Filled",
+      "Timestamp": "2024-01-15T13:00:00"
+    },
+    {
+      "OrderId": "123e4567-e89b-12d3-a456-426614174006",
+      "Symbol": "NVDA",
+      "Quantity": 30,
+      "Price": 495.80,
+      "Side": "Buy",
+      "Status": "Filled",
+      "Timestamp": "2024-01-15T12:00:00"
+    }
+  ]
+}

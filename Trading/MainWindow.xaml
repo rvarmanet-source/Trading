@@ -51,63 +51,15 @@
                 </StackPanel>
             </Border>
 
-            <!-- Main Trading Area -->
+            <!-- Main Content Area -->
             <Grid Grid.Row="2" Margin="30,0,30,30">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="2.2*"/>
-                    <ColumnDefinition Width="3*"/>
-                </Grid.ColumnDefinitions>
-
-                <!-- Order Entry Panel -->
-                <Border Padding="20" Background="#26304A" CornerRadius="10" Margin="0,0,30,0">
-                    <StackPanel>
-                        <TextBlock Text="Order Entry" FontSize="20" FontWeight="Bold" Foreground="#4FC3F7" Margin="0,0,0,18"/>
-                        <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
-                            <TextBlock Text="Symbol:" Width="70" VerticalAlignment="Center" Foreground="#B0BEC5"/>
-                            <TextBox Width="120" Name="SymbolTextBox" Background="#232B3E" Foreground="White" BorderBrush="#4FC3F7"/>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
-                            <TextBlock Text="Quantity:" Width="70" VerticalAlignment="Center" Foreground="#B0BEC5"/>
-                            <TextBox Width="120" Name="QuantityTextBox" Background="#232B3E" Foreground="White" BorderBrush="#4FC3F7"/>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
-                            <TextBlock Text="Price:" Width="70" VerticalAlignment="Center" Foreground="#B0BEC5"/>
-                            <TextBox Width="120" Name="PriceTextBox" Background="#232B3E" Foreground="White" BorderBrush="#4FC3F7"/>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal" Margin="0,0,0,18">
-                            <RadioButton Content="Buy" GroupName="Side" Name="BuyRadioButton" IsChecked="True" Foreground="#81C784" FontWeight="Bold" Margin="0,0,20,0"/>
-                            <RadioButton Content="Sell" GroupName="Side" Name="SellRadioButton" Foreground="#E57373" FontWeight="Bold"/>
-                        </StackPanel>
-                        <Button Content="Submit Order" Width="140" Height="38" Background="#4FC3F7" Foreground="#232B3E" FontWeight="Bold" Name="SubmitOrderButton"/>
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="Welcome to TradePro" FontSize="36" FontWeight="Bold" Foreground="#4FC3F7" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+                    <TextBlock Text="Your Professional Trading Platform" FontSize="18" Foreground="#B0BEC5" HorizontalAlignment="Center" Margin="0,0,0,40"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Content="Open Dashboard" Width="200" Height="50" Background="#1976D2" Foreground="White" FontWeight="Bold" FontSize="16" Click="OpenDashboard_Click" Margin="0,0,20,0"/>
+                        <Button Content="Open Trading Window" Width="200" Height="50" Background="#4FC3F7" Foreground="#232B3E" FontWeight="Bold" FontSize="16" Click="OpenTradingWindow_Click"/>
                     </StackPanel>
-                </Border>
-
-                <!-- Orders and Trades -->
-                <StackPanel Grid.Column="1">
-                    <TextBlock Text="Open Orders" FontSize="18" FontWeight="Bold" Foreground="#B0BEC5" Margin="0,0,0,8"/>
-                    <DataGrid Name="OpenOrdersGrid" Height="160" AutoGenerateColumns="True" Margin="0,0,0,18"
-                              Background="#232B3E" Foreground="White" BorderBrush="#4FC3F7"
-                              RowBackground="#26304A" AlternatingRowBackground="#232B3E">
-                        <DataGrid.ColumnHeaderStyle>
-                            <Style TargetType="DataGridColumnHeader">
-                                <Setter Property="Background" Value="#26304A"/>
-                                <Setter Property="Foreground" Value="#4FC3F7"/>
-                                <Setter Property="FontWeight" Value="Bold"/>
-                            </Style>
-                        </DataGrid.ColumnHeaderStyle>
-                    </DataGrid>
-                    <TextBlock Text="Trade History" FontSize="18" FontWeight="Bold" Foreground="#B0BEC5" Margin="0,0,0,8"/>
-                    <DataGrid Name="TradeHistoryGrid" Height="160" AutoGenerateColumns="True"
-                              Background="#232B3E" Foreground="White" BorderBrush="#4FC3F7"
-                              RowBackground="#26304A" AlternatingRowBackground="#232B3E">
-                        <DataGrid.ColumnHeaderStyle>
-                            <Style TargetType="DataGridColumnHeader">
-                                <Setter Property="Background" Value="#26304A"/>
-                                <Setter Property="Foreground" Value="#4FC3F7"/>
-                                <Setter Property="FontWeight" Value="Bold"/>
-                            </Style>
-                        </DataGrid.ColumnHeaderStyle>
-                    </DataGrid>
                 </StackPanel>
             </Grid>
         </Grid>

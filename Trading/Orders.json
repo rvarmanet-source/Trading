@@ -1,0 +1,951 @@
+{
+    "OpenOrders": [
+        {
+            "OrderId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+            "Symbol": "NVDA",
+            "Quantity": 150,
+            "Price": 495.80,
+            "Side": "Buy",
+            "Status": "Open",
+            "Timestamp": "2024-01-20T14:30:00"
+        },
+        {
+            "OrderId": "f47ac10b-58cc-4372-a567-0e02b2c3d480",
+            "Symbol": "AMD",
+            "Quantity": 200,
+            "Price": 155.25,
+            "Side": "Buy",
+            "Status": "Open",
+            "Timestamp": "2024-01-20T14:32:00"
+        },
+        {
+            "OrderId": "f47ac10b-58cc-4372-a567-0e02b2c3d481",
+            "Symbol": "INTC",
+            "Quantity": 300,
+            "Price": 42.75,
+            "Side": "Sell",
+            "Status": "Open",
+            "Timestamp": "2024-01-20T14:35:00"
+        },
+        {
+            "OrderId": "f47ac10b-58cc-4372-a567-0e02b2c3d482",
+            "Symbol": "PLTR",
+            "Quantity": 500,
+            "Price": 18.90,
+            "Side": "Buy",
+            "Status": "Open",
+            "Timestamp": "2024-01-20T14:40:00"
+        },
+        {
+            "OrderId": "f47ac10b-58cc-4372-a567-0e02b2c3d483",
+            "Symbol": "COIN",
+            "Quantity": 75,
+            "Price": 152.30,
+            "Side": "Buy",
+            "Status": "Open",
+            "Timestamp": "2024-01-20T14:45:00"
+        }
+    ],
+    "TradeHistory": [
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67890",
+            "Symbol": "AAPL",
+            "Quantity": 100,
+            "Price": 185.25,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:00:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67891",
+            "Symbol": "MSFT",
+            "Quantity": 150,
+            "Price": 380.50,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:05:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67892",
+            "Symbol": "GOOGL",
+            "Quantity": 75,
+            "Price": 142.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:10:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67893",
+            "Symbol": "AMZN",
+            "Quantity": 125,
+            "Price": 152.80,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:15:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67894",
+            "Symbol": "TSLA",
+            "Quantity": 200,
+            "Price": 238.45,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:20:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67895",
+            "Symbol": "META",
+            "Quantity": 100,
+            "Price": 395.20,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:25:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67896",
+            "Symbol": "NFLX",
+            "Quantity": 50,
+            "Price": 485.60,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:30:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67897",
+            "Symbol": "JPM",
+            "Quantity": 150,
+            "Price": 165.40,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:35:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67898",
+            "Symbol": "BAC",
+            "Quantity": 300,
+            "Price": 32.85,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:40:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67899",
+            "Symbol": "WFC",
+            "Quantity": 200,
+            "Price": 47.25,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:45:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67900",
+            "Symbol": "GS",
+            "Quantity": 75,
+            "Price": 385.90,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:50:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67901",
+            "Symbol": "C",
+            "Quantity": 250,
+            "Price": 52.30,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T09:55:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67902",
+            "Symbol": "V",
+            "Quantity": 100,
+            "Price": 255.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:00:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67903",
+            "Symbol": "MA",
+            "Quantity": 80,
+            "Price": 415.30,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:05:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67904",
+            "Symbol": "JNJ",
+            "Quantity": 150,
+            "Price": 162.45,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:10:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67905",
+            "Symbol": "PFE",
+            "Quantity": 400,
+            "Price": 28.95,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:15:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67906",
+            "Symbol": "ABBV",
+            "Quantity": 120,
+            "Price": 158.70,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:20:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67907",
+            "Symbol": "UNH",
+            "Quantity": 60,
+            "Price": 512.80,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:25:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67908",
+            "Symbol": "MRK",
+            "Quantity": 180,
+            "Price": 108.25,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:30:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67909",
+            "Symbol": "XOM",
+            "Quantity": 200,
+            "Price": 102.35,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:35:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67910",
+            "Symbol": "CVX",
+            "Quantity": 150,
+            "Price": 148.90,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:40:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67911",
+            "Symbol": "COP",
+            "Quantity": 140,
+            "Price": 115.60,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:45:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67912",
+            "Symbol": "SLB",
+            "Quantity": 250,
+            "Price": 54.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:50:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67913",
+            "Symbol": "WMT",
+            "Quantity": 175,
+            "Price": 165.20,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T10:55:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67914",
+            "Symbol": "HD",
+            "Quantity": 90,
+            "Price": 335.80,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:00:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67915",
+            "Symbol": "TGT",
+            "Quantity": 130,
+            "Price": 142.50,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:05:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67916",
+            "Symbol": "COST",
+            "Quantity": 70,
+            "Price": 645.30,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:10:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67917",
+            "Symbol": "NKE",
+            "Quantity": 160,
+            "Price": 108.95,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:15:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67918",
+            "Symbol": "SBUX",
+            "Quantity": 180,
+            "Price": 95.40,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:20:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67919",
+            "Symbol": "MCD",
+            "Quantity": 110,
+            "Price": 285.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:25:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67920",
+            "Symbol": "DIS",
+            "Quantity": 200,
+            "Price": 92.35,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:30:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67921",
+            "Symbol": "BA",
+            "Quantity": 85,
+            "Price": 212.40,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:35:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67922",
+            "Symbol": "CAT",
+            "Quantity": 95,
+            "Price": 295.60,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:40:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67923",
+            "Symbol": "DE",
+            "Quantity": 105,
+            "Price": 385.20,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:45:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67924",
+            "Symbol": "MMM",
+            "Quantity": 140,
+            "Price": 98.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:50:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67925",
+            "Symbol": "GE",
+            "Quantity": 220,
+            "Price": 125.30,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T11:55:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67926",
+            "Symbol": "IBM",
+            "Quantity": 130,
+            "Price": 178.45,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:00:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67927",
+            "Symbol": "ORCL",
+            "Quantity": 175,
+            "Price": 112.85,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:05:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67928",
+            "Symbol": "CRM",
+            "Quantity": 95,
+            "Price": 255.60,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:10:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67929",
+            "Symbol": "ADBE",
+            "Quantity": 70,
+            "Price": 585.20,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:15:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67930",
+            "Symbol": "CSCO",
+            "Quantity": 280,
+            "Price": 52.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:20:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67931",
+            "Symbol": "QCOM",
+            "Quantity": 155,
+            "Price": 152.40,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:25:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67932",
+            "Symbol": "TXN",
+            "Quantity": 135,
+            "Price": 175.95,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:30:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67933",
+            "Symbol": "AVGO",
+            "Quantity": 45,
+            "Price": 925.80,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:35:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67934",
+            "Symbol": "AMAT",
+            "Quantity": 165,
+            "Price": 185.30,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:40:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67935",
+            "Symbol": "LRCX",
+            "Quantity": 55,
+            "Price": 745.60,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:45:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67936",
+            "Symbol": "MU",
+            "Quantity": 190,
+            "Price": 88.45,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:50:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67937",
+            "Symbol": "PYPL",
+            "Quantity": 170,
+            "Price": 62.85,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T12:55:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67938",
+            "Symbol": "SQ",
+            "Quantity": 210,
+            "Price": 78.90,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:00:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67939",
+            "Symbol": "SHOP",
+            "Quantity": 125,
+            "Price": 72.35,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:05:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67940",
+            "Symbol": "UBER",
+            "Quantity": 245,
+            "Price": 68.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:10:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67941",
+            "Symbol": "LYFT",
+            "Quantity": 350,
+            "Price": 15.40,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:15:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67942",
+            "Symbol": "ABNB",
+            "Quantity": 115,
+            "Price": 138.60,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:20:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67943",
+            "Symbol": "DASH",
+            "Quantity": 95,
+            "Price": 125.85,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:25:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67944",
+            "Symbol": "SNAP",
+            "Quantity": 420,
+            "Price": 12.30,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:30:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67945",
+            "Symbol": "PINS",
+            "Quantity": 290,
+            "Price": 32.95,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:35:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67946",
+            "Symbol": "TWTR",
+            "Quantity": 265,
+            "Price": 42.15,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:40:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67947",
+            "Symbol": "SPOT",
+            "Quantity": 85,
+            "Price": 218.70,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:45:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67948",
+            "Symbol": "ROKU",
+            "Quantity": 195,
+            "Price": 68.45,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:50:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67949",
+            "Symbol": "ZM",
+            "Quantity": 175,
+            "Price": 72.90,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T13:55:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67950",
+            "Symbol": "DOCU",
+            "Quantity": 210,
+            "Price": 58.25,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:00:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67951",
+            "Symbol": "DKNG",
+            "Quantity": 320,
+            "Price": 35.80,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:05:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67952",
+            "Symbol": "PENN",
+            "Quantity": 280,
+            "Price": 28.45,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:10:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67953",
+            "Symbol": "MGM",
+            "Quantity": 225,
+            "Price": 45.90,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:15:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67954",
+            "Symbol": "WYNN",
+            "Quantity": 140,
+            "Price": 92.35,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:20:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67955",
+            "Symbol": "LVS",
+            "Quantity": 185,
+            "Price": 48.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:25:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67956",
+            "Symbol": "F",
+            "Quantity": 550,
+            "Price": 12.45,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:30:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67957",
+            "Symbol": "GM",
+            "Quantity": 270,
+            "Price": 38.90,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:35:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67958",
+            "Symbol": "RIVN",
+            "Quantity": 385,
+            "Price": 18.65,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:40:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67959",
+            "Symbol": "LCID",
+            "Quantity": 475,
+            "Price": 3.25,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:45:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67960",
+            "Symbol": "NIO",
+            "Quantity": 390,
+            "Price": 6.85,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:50:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67961",
+            "Symbol": "XPEV",
+            "Quantity": 310,
+            "Price": 9.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T14:55:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67962",
+            "Symbol": "LI",
+            "Quantity": 245,
+            "Price": 28.30,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:00:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67963",
+            "Symbol": "BABA",
+            "Quantity": 165,
+            "Price": 78.95,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:05:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67964",
+            "Symbol": "JD",
+            "Quantity": 295,
+            "Price": 32.40,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:10:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67965",
+            "Symbol": "PDD",
+            "Quantity": 135,
+            "Price": 125.80,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:15:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67966",
+            "Symbol": "BIDU",
+            "Quantity": 155,
+            "Price": 118.65,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:20:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67967",
+            "Symbol": "SE",
+            "Quantity": 185,
+            "Price": 45.20,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:25:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67968",
+            "Symbol": "MELI",
+            "Quantity": 55,
+            "Price": 1425.90,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:30:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67969",
+            "Symbol": "CRWD",
+            "Quantity": 105,
+            "Price": 245.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:35:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67970",
+            "Symbol": "ZS",
+            "Quantity": 125,
+            "Price": 185.40,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:40:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67971",
+            "Symbol": "OKTA",
+            "Quantity": 165,
+            "Price": 78.90,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:45:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67972",
+            "Symbol": "NET",
+            "Quantity": 215,
+            "Price": 68.35,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:50:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67973",
+            "Symbol": "DDOG",
+            "Quantity": 145,
+            "Price": 98.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T15:55:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67974",
+            "Symbol": "SNOW",
+            "Quantity": 90,
+            "Price": 175.60,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:00:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67975",
+            "Symbol": "PANW",
+            "Quantity": 75,
+            "Price": 285.90,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:05:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67976",
+            "Symbol": "FTNT",
+            "Quantity": 195,
+            "Price": 58.45,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:10:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67977",
+            "Symbol": "SQ",
+            "Quantity": 225,
+            "Price": 75.20,
+            "Side": "Sell",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:15:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67978",
+            "Symbol": "SOFI",
+            "Quantity": 485,
+            "Price": 8.35,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:20:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67979",
+            "Symbol": "UPST",
+            "Quantity": 255,
+            "Price": 32.65,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:25:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67980",
+            "Symbol": "AFRM",
+            "Quantity": 215,
+            "Price": 38.90,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:30:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67981",
+            "Symbol": "RBLX",
+            "Quantity": 330,
+            "Price": 42.15,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:35:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67982",
+            "Symbol": "U",
+            "Quantity": 175,
+            "Price": 28.70,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:40:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67983",
+            "Symbol": "TDOC",
+            "Quantity": 295,
+            "Price": 22.85,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:45:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67984",
+            "Symbol": "PTON",
+            "Quantity": 385,
+            "Price": 5.95,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:50:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67985",
+            "Symbol": "BYND",
+            "Quantity": 410,
+            "Price": 8.45,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T16:55:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67986",
+            "Symbol": "ENPH",
+            "Quantity": 135,
+            "Price": 125.80,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T17:00:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67987",
+            "Symbol": "SEDG",
+            "Quantity": 165,
+            "Price": 68.30,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T17:05:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67988",
+            "Symbol": "FSLR",
+            "Quantity": 95,
+            "Price": 182.45,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T17:10:00"
+        },
+        {
+            "OrderId": "a1b2c3d4-e5f6-7890-a1b2-c3d4e5f67989",
+            "Symbol": "PLUG",
+            "Quantity": 520,
+            "Price": 4.75,
+            "Side": "Buy",
+            "Status": "Filled",
+            "Timestamp": "2024-01-20T17:15:00"
+        }
+    ]
+}
