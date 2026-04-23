@@ -1,0 +1,1 @@
+A trading application that allows users to monitor markets in real time, place buy/sell orders, and track their portfolio performance through an intuitive dashboard with live price updates and analytics.
